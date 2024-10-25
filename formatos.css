@@ -1,0 +1,53 @@
+/* Definindo a formatação global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d58a74;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização da logo */
+.logotipo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Centralizando e estilizando as áreas */
+header, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 10px 0;
+    height: 60px;
+}
+
+main {
+    flex-direction: column;
+    margin-top: 50px;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    height: 25px;
+}
+
+/* Estilo do link MENU */
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
